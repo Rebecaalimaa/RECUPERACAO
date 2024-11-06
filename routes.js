@@ -15,7 +15,6 @@ router.post("/clientes",clientes.create);
 router.get("/clientes",clientes.read);
 
 router.get('/', teste);
-router.put("/carros:/carros_id",carros.update);
 router.post("/carros",carros.create);
 router.get("/carros",carros.read);
 
